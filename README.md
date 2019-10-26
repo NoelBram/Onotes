@@ -39,8 +39,10 @@ DFA – Deterministic Finite Automaton.
 
 ## Iterator : 
 A pointer that is used to point to container memory locations(ex: vectors, variabels, etc.). An object that enables a program to traverse(or backward) a container (variable with a value of int referring to a data location), particularly lists. Their behavior is similar to a database cursor.
-#### next(value, number) is an iterator that returns value + number;
-#### prev(value, number) is an iterator that returns value - number;
+```markdown
+next(value, number) is an iterator that returns value + number;
+prev(value, number) is an iterator that returns value - number;
+```
 #### Internal iterators : 
 Higher order functions such as map, reduce etc., that are implementing the traversal across a container, applying the given function to every element. 
 #### External iterators and the iterator pattern : 
