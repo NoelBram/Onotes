@@ -20,10 +20,10 @@ a control structure that enables traversal over the records in a database. They 
 Deterministic finite automation (DFA) : also known as “deterministic finite acceptor, DFA”, or “deterministic finite state automation, DFSA” that is a mathematical model of computation (or “finite-state machine”) that accepts or rejects a given string of symbols, by running through a “state sequence” uniquely determined by the string. 
 ## Efficiency : 
 In computer science it is equivalent to the concept of polynomial time (polynomial = fast). The general goal in how to quantify the notion of a “reasonable” running time. There is a final, fundamental benefit to making our definition of efficiency so specific: it becomes negatable (not comparable). It becomes possible to express the notion that there is no (single) efficient algorithm for a particular problem. Our definition in terms of polynomial time is much more an absolute notion; it is closely connected with the idea that each problem has an intrinsic (: belonging to a thing by its very nature) level of computational tractability: some admit efficient solutions, and others do not.
-## Computational efficiency : 
+#### Computational efficiency : 
 The focus is primarily on efficiency in running time, but it is important that a program is efficient in the use of other resources as well. An issue that arises is the amount of space (or memory) used by an algorithm.
 Note : If the input size increases from N to 2N, the bound on the running time increases from cNd to c(2N)d = c * 2dNd, which is a slow-down by a factor of 2d.
-### Proposed Definition of Efficiency : 
+#### Proposed Definition of Efficiency : 
 1. An algorithm is efficient if, when implemented, it runs quickly on real input instances
 2. An algorithm is efficient if it achieves qualitatively better worst-case performance, at an analytical level, than brute-force search. 
 3. An algorithm is efficient if it has a polynomial running time.
