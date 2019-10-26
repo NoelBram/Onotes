@@ -47,17 +47,19 @@ prev(value, number) // is an iterator that returns... value - number;
 Higher order functions such as map, reduce etc., that are implementing the traversal across a container, applying the given function to every element. 
 #### External iterators and the iterator pattern : 
 The primary purpose of an iterator is to allow a user to process every element of a container while isolating the user from the internal structure of the container. It may be thought of as a type of pointer that has two primary operations: referencing one particular element in the object collection (called element access), and modifying itself so it points to the next element (called element traversal).
-## Multiplicative : 
-Tending to have the power to multiply and relating to, or associated with a mathematical operation of multiplication.
-#### Example : 
-The multiplicative property of 0 requires that…
-    a × 0 = 0 and 0 × a = 0.
+## Matchine Learning Method
+An algorithim with the matchine learning method has the albility to adapt its behaviors to new inputs. The adaptation may seem like it has no human intervention and may lead to the inpression that the machine is actually learning but that is not the case. Underneath the machine learning model, this adaptation of behaviours, is as rigid as every bit of machine instructions that are programmed by humans.
 ## Main Memory : 
 It holds two instructions a program can initiate. 
 #### Violate : 
 To erase when the program terminates of when the computer turns off. 
 #### Random Access Memory (RAM) : 
 When the CPU accesses data and instructions from any memory location. 
+## Multiplicative : 
+Tending to have the power to multiply and relating to, or associated with a mathematical operation of multiplication.
+#### Example : 
+The multiplicative property of 0 requires that…
+    a × 0 = 0 and 0 × a = 0.
 ## Notational Conventions : 
 expression terms and factor and expression is the start symbol.  
 #### Terminals : 
