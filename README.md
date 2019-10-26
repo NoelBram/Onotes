@@ -77,6 +77,7 @@ void bubble_sort (vector<int> & v, int n){
         }
     }
 }
+```
 #### Selection Sort : 
 ```markdown
 void selection_sort (vector<int> & v, int n){
@@ -88,7 +89,7 @@ void selection_sort (vector<int> & v, int n){
         }
     }
 }
-
+```
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/NoelBram/TMBN-Project/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
