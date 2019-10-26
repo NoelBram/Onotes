@@ -64,9 +64,9 @@ Uppercase letters early in the alphabet such as (A, B, C). The letter S which wh
 An expression consisting of variables and coefficients that involves only the operations of addition, subtraction, multiplication, and non-negative integer exponents of variables. 
 #### Non-polynomial (complexity) : 
 A set or property of problems for which no polynomial-time algorithm is known. Increasing the complexity or answer to a non-polynomial problem only requires a few steps like simply increasing the input by a small amount.
-    Example: nˆ2  
+#### Example: nˆ2  
 ## Sorting Algorithms : 
-	Bubble Sort :
+#### Bubble Sort :
 ```markdown
 void bubble_sort (vector<int> & v, int n){
     for (int i = n-1; i > 0; i--){
@@ -77,7 +77,8 @@ void bubble_sort (vector<int> & v, int n){
         }
     }
 }
-Selection Sort : 
+#### Selection Sort : 
+```markdown
 void selection_sort (vector<int> & v, int n){
     for (int i = 0; i < n-1; i++){
         for (int j = i+1; j < n; j++){       
