@@ -48,7 +48,17 @@ Higher order functions such as map, reduce etc., that are implementing the trave
 #### External iterators and the iterator pattern : 
 The primary purpose of an iterator is to allow a user to process every element of a container while isolating the user from the internal structure of the container. It may be thought of as a type of pointer that has two primary operations: referencing one particular element in the object collection (called element access), and modifying itself so it points to the next element (called element traversal).
 ## Matchine Learning Method
-An algorithim with the matchine learning method has the albility to adapt its behaviors to new inputs. The adaptation may seem like it has no human intervention and may lead to the inpression that the machine is actually learning but that is not the case. Underneath the machine learning model, this adaptation of behaviours, is as rigid as every bit of machine instructions that are programmed by humans.
+An algorithim with the matchine learning method has the albility to adapt its behaviors to new inputs. The adaptation may seem like it has no human intervention and may lead to the inpression that the machine is actually learning but that is not the case. Underneath the machine learning model, this adaptation of behaviours, is as rigid as every bit of machine instructions that are programmed by humans. The task of machine learning, is to learn the function, from the vast mapping space. The goal of machine learning is to discover a function that is as general as possible, which has a high probability to give the right answer for unseen data.
+#### Supervised learning
+The data sample would contain a target attribute y, also known as ground truth. And the task is to learn a function F, that takes the non-target attributes X and output a value that approximates the target attribute, i.e. 
+ F(X)≈y. 
+ #### Unsupervised learning
+In contrary to the supervised learning task, we do not have the ground truth in an unsupervised learning task. One is expected to learn the underlying patterns or rules from the data, without having the predefined ground truth as the benchmark.
+#### Here are a few examples of the unsupervised learning tasks:
+##### Clustering: 
+given a data set, one can cluster the samples into groups, based on the similarities among the samples within the data set. For instance, a sample could be a customer profile, with attributes such as the number of items that the customer bought, the time that the customer spent on the shopping site etc. One can cluster the customer profiles into groups, based on the similarities of the attributes. With the clustered groups, one could devise specific commercial campaigns targeting each group, which might help attract and retain customers. 
+##### Association:  
+given a data set, the association task is to uncover the hidden association patterns among the attributes of a sample. For instance,  a sample could be a shopping cart of a customer, where each attribute of the sample is a merchandise. By looking into the shopping carts, one might discover that customers who bought beers often bought diaper as well, i.e. there is a strong association between the beer and the diaper in the shopping cart. With this learnt insight, the supermarket could rearrange those strongly associated merchandises into the nearby corners, in order to promote the sales of one or another.
 ## Main Memory : 
 It holds two instructions a program can initiate. 
 #### Violate : 
