@@ -106,6 +106,12 @@ void selection_sort (vector<int> & v, int n){
     }
 }
 ```
+## Time Complexity 
+The number of basic operations per formed 
+    Machine independent 
+    Programing language independent 
+    Efficency : It runs quickly on real input instsances; if it runs in polynomial running time.
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/NoelBram/TMBN-Project/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
