@@ -107,10 +107,10 @@ void selection_sort (vector<int> & v, int n){
 }
 ```
 ## Time Complexity 
-The number of basic operations per formed 
-    Machine independent 
-    Programing language independent 
-    Efficency : It runs quickly on real input instsances; if it runs in polynomial running time.
+The number of basic operations formed 
+ - Machine independent 
+ - Programing language independent 
+ - Efficency : It runs quickly on real input instsances; if it runs in polynomial running time.
 
 ## Welcome to GitHub Pages
 
