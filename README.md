@@ -7,7 +7,7 @@ the study of abstract machines and automata, as well as computational problems t
 A machine, self-operating machine, or a control mechanism designed to automatically follow a predetermined sequence of operations, or respond to predetermined instructions. 
 ## Backtracking : 
 A general algorithm for finding all (or some) solutions to some computational problems, especially constraint satisfaction problems. The algorithm will incrementally build candidates to the solutions and abandons a candidate (“backtracks”) as soon as it determines that the candidate cannot possibly be completed to a valid solution.
-## Brute-force : 
+## Brute-force (n! = n(n-1)!): 
 A trial-and-error way of approaching an algorithm by forcefully finding a solution with an enumerated (a catalog or list) array of possibilities. Algorithms that improve substantially on brute-force search nearly always contain valuable heuristic (serving to indicate or point out) idea that makes them work; and they tell us something about the intrinsic structure, and computational tractability, of the underlying problem itself.
 #### Note: Not only is this approach almost always too slow to be useful, it is an intellectual cop-out; it provides us with absolutely no insight into the structure of the problem we are studying.
 ## Central Processing Unit (CPU) :
@@ -22,7 +22,7 @@ Deterministic finite automation (DFA) : also known as “deterministic finite ac
 ## Efficiency : 
 In computer science it is equivalent to the concept of polynomial time (polynomial = fast). The general goal in how to quantify the notion of a “reasonable” running time. There is a final, fundamental benefit to making our definition of efficiency so specific: it becomes negatable (not comparable). It becomes possible to express the notion that there is no (single) efficient algorithm for a particular problem. Our definition in terms of polynomial time is much more an absolute notion; it is closely connected with the idea that each problem has an intrinsic (: belonging to a thing by its very nature) level of computational tractability: some admit efficient solutions, and others do not.
 #### Computational efficiency : 
-The focus is primarily on efficiency in running time, but it is important that a program is efficient in the use of other resources as well. An issue that arises is the amount of space (or memory) used by an algorithm.
+The focus is primarily on efficiency in running time, but it is important that a program is efficient in the use of other resources as well. An issue that arises is the amount of space (or memory) used by an algorithm. If an algorithm achives qualitatively better worse-case proformance at the algorthmic level, than brute force search, then it has reasonable running time.
 #### Note : If the input size increases from N to 2N, the bound on the running time increases from cNd to c(2N)d = c * 2dNd, which is a slow-down by a factor of 2d.
 #### Proposed Definition of Efficiency : 
 1. An algorithm is efficient if, when implemented, it runs quickly on real input instances
@@ -77,7 +77,7 @@ Lowercase letters early in the alphabet such as (a, b, c). Operator symbols like
 #### Non-terminals : 
 Uppercase letters early in the alphabet such as (A, B, C). The letter S which when it appears is usually the start symbol. Lowercase italic names such as expr or stmt. When discussing programing constructs, uppercase letters may be used to represent non-terminals for the constructs; For example, non-terminals for expression terms and factors are often represented by (E, T, and F) respectively. 
 ## Polynomial : 
-An expression consisting of variables and coefficients that involves only the operations of addition, subtraction, multiplication, and non-negative integer exponents of variables. 
+An expression consisting of variables and coefficients that involves only the operations of addition, subtraction, multiplication, and non-negative integer exponents of variables.   
 #### Non-polynomial (complexity) : 
 A set or property of problems for which no polynomial-time algorithm is known. Increasing the complexity or answer to a non-polynomial problem only requires a few steps like simply increasing the input by a small amount.
 #### Example: nˆ2  
@@ -111,29 +111,3 @@ The number of basic operations formed
  - Machine independent 
  - Programing language independent 
  - Efficency : It runs quickly on real input instsances; if it runs in polynomial running time.
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/NoelBram/TMBN-Project/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files*)
-
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-.md file 
-to show code '```markdown'
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-## Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NoelBram/TMBN-Project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-## Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
-
-
-
