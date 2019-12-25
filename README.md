@@ -7,6 +7,7 @@ the study of abstract machines and automata, as well as computational problems t
 A machine, self-operating machine, or a control mechanism designed to automatically follow a predetermined sequence of operations, or respond to predetermined instructions. 
 ## Backtracking : 
 A general algorithm for finding all (or some) solutions to some computational problems, especially constraint satisfaction problems. The algorithm will incrementally build candidates to the solutions and abandons a candidate (“backtracks”) as soon as it determines that the candidate cannot possibly be completed to a valid solution.
+## Bredth First Search
 ## Brute-force (n! = n(n-1)!): 
 A trial-and-error way of approaching an algorithm by forcefully finding a solution with an enumerated (a catalog or list) array of possibilities. Algorithms that improve substantially on brute-force search nearly always contain valuable heuristic (serving to indicate or point out) idea that makes them work; and they tell us something about the intrinsic structure, and computational tractability, of the underlying problem itself.
 #### Note: Not only is this approach almost always too slow to be useful, it is an intellectual cop-out; it provides us with absolutely no insight into the structure of the problem we are studying.
@@ -19,10 +20,13 @@ It preforms mathematical operations.
 ## Cursor :  
 a control structure that enables traversal over the records in a database. They facilitate subsequent (:occurring later or after)  processing in conjunction with the traversal, such as retrieval, addition and removal of database records. 
 Deterministic finite automation (DFA) : also known as “deterministic finite acceptor, DFA”, or “deterministic finite state automation, DFSA” that is a mathematical model of computation (or “finite-state machine”) that accepts or rejects a given string of symbols, by running through a “state sequence” uniquely determined by the string. 
+## Depth First Search (DFS) :
+An algorithm that is used to traverse a graph/tree. DFS is good for traversing Directed Acyclic Graphs(DAG's). 
+Its more commonly explained using a stack, with a FIFO aproach. With a group of nodes in the stack you remove the last node and visit its children. Next, you add the node and all of its children to a new stack. Then your reapeat the same process to the next node. 
 ## Efficiency : 
 In computer science it is equivalent to the concept of polynomial time (polynomial = fast). The general goal in how to quantify the notion of a “reasonable” running time. There is a final, fundamental benefit to making our definition of efficiency so specific: it becomes negatable (not comparable). It becomes possible to express the notion that there is no (single) efficient algorithm for a particular problem. Our definition in terms of polynomial time is much more an absolute notion; it is closely connected with the idea that each problem has an intrinsic (: belonging to a thing by its very nature) level of computational tractability: some admit efficient solutions, and others do not.
 #### Computational efficiency : 
-The focus is primarily on efficiency in running time, but it is important that a program is efficient in the use of other resources as well. An issue that arises is the amount of space (or memory) used by an algorithm. If an algorithm achives qualitatively better worse-case proformance at the algorthmic level, than brute force search, then it has reasonable running time.
+If an algorithm achives qualitatively better worse-case proformance at the algorthmic level, than brute force search, then it has reasonable running time. The focus is primarily on efficiency in running time, but it is important that a program is efficient in the use of other resources as well. An issue that arises is the amount of space (or memory) used by an algorithm. 
 #### Note : If the input size increases from N to 2N, the bound on the running time increases from cNd to c(2N)d = c * 2dNd, which is a slow-down by a factor of 2d.
 #### Proposed Definition of Efficiency : 
 1. An algorithm is efficient if, when implemented, it runs quickly on real input instances
@@ -107,7 +111,7 @@ void selection_sort (vector<int> & v, int n){
 }
 ```
 ## Time Complexity 
-The number of basic operations formed 
+The number of basic operations performed 
  - Machine independent 
  - Programing language independent 
  - Efficency : It runs quickly on real input instsances; if it runs in polynomial running time.
